@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('portadalapices.jpeg');
+    background-size: 80%; 
+    background-position: center top; 
+    background-repeat: no-repeat;
+}
+
+body::before {
+    content: "Imagen de portada: fondo blanco con veintiseis lapices de colores uno al lado del otro"; /* Texto alternativo para personas no videntes */
+    display: none; /* Oculta el contenido visualmente, pero sigue siendo accesible para lectores de pantalla */
+}
+
+
+main {
+    padding-top: 50px; 
+    text-align: center;
+	
+}
+
+main p {
+    font-size: 18px; 
+	font-weight: bold; 
+}
+
+
+h1 {
+    font-weight: bold; 
+}
+
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo img {
+    max-width: 65px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 150px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FF66B3;
+	font-size: 25px; 
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff; 
+}
+
+
+
+.producto {
+    width: 25%;
+    float: left; 
+    border: 1px solid #000;	
+    background-color: #FF66B3;
+    color: #000; 
+    margin: 1em;
+    height: auto; 
+    text-align: center;
+    padding: 1em;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+	font-weight: bold;
+	margin-right: 60px;
+	margin-left: 25px;
+}
+
+.producto .titulo {
+    margin-top: 0;
+	
+}
+
+.precio {
+    background-color: #fff;
+    color: #000;
+    margin-top: auto; 
+    padding: 1em; 
+}
+
+
+ .ofertas-link {
+	display: block; 
+    margin-top: 20px; 
+    text-align: center; 
+    color: #000; 
+    font-weight: bold;
+	}
+
+.oferta {
+	width: 25%;
+    float: left; 
+    border: 1px solid #000;	
+    background-color: #FF66B3;
+    color: #000; 
+    margin: 3em;
+    height: auto; 
+    text-align: center;
+    padding: 1em;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+	font-weight: bold;
+	margin-right: 60px;
+	margin-left: 25px;
+}
+	
+.contacto-link {
+	display: block; 
+    margin-top: 20px; 
+    text-align: center; 
+    color: #000; 
+    font-weight: bold;
+	font-size: 20px;
+	
+	}
+
+
+
+
+
+
