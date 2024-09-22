@@ -33,7 +33,7 @@ h1 {
 
 
 header {
-    background-color: #000;
+    background-image: linear-gradient(to right bottom, #da6baa, #a65a94, #764979, #4d365a, #2a2339, #282a40, #253046, #22374b, #23617c, #008faa, #00c0ce, #25f3e6);
     color: #fff;
     padding: 10px 20px;
     display: flex;
